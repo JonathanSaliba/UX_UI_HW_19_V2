@@ -635,10 +635,10 @@
                 <h2 class="section__title">Testimonial</h2>
                 <span class="section__subtitle">My Client Saying</span>
 
-                <div class="testimonial__container container">
-                    <div>
+                <div class="testimonial__container container swiper mySwiper">
+                    <div class="swiper-wrapper">
                         <!--==================== TESTIMONIAL 1 ====================-->
-                        <div class="testimonial__content">
+                        <div class="testimonial__content swiper-slide">
                             <div class="testimonial__data">
                                 <div class="testimonial__header">
                                     <img src="assets/img/logo.jpeg" alt="" class="testimonial__img">
@@ -662,7 +662,7 @@
                         </div>
 
                         <!--==================== TESTIMONIAL 2 ====================-->
-                        <div class="testimonial__content">
+                        <div class="testimonial__content swiper-slide">
                             <div class="testimonial__data">
                                 <div class="testimonial__header">
                                     <img src="assets/img/logo.jpeg" alt="" class="testimonial__img">
@@ -686,7 +686,7 @@
                         </div>
 
                         <!--==================== TESTIMONIAL 3 ====================-->
-                        <div class="testimonial__content">
+                        <div class="testimonial__content swiper-slide">
                             <div class="testimonial__data">
                                 <div class="testimonial__header">
                                     <img src="assets/img/logo.jpeg" alt="" class="testimonial__img">
@@ -708,14 +708,62 @@
 
                             <p class="testimonial__description">TBD</p>
                         </div>
-
                     </div>
+
+                    <!-- Pagination -->
+                    <div class="swiper-pagination swiper-pagination-testimonial"></div>
                 </div>
             </section>
 
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
-                
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get In Touch</span>
+
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Call Me</h3>
+                                <span class="contact__subtitle">999-999-999</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">firstname.lastname@email.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">Canada - Remote</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Name</label>
+                                <input type="text" class="contact__input">
+                            </div>
+
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="text" class="contact__input">
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </section>
         </main>
 
